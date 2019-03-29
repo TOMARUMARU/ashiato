@@ -13,3 +13,4 @@ document.getElementsByName('button')[1].onclick = function() {
 // [1]は何を指し示すのでしょうか。
 chrome.tabs.executeScript(null, {file: "stop.js"});
 }
+// テスト
