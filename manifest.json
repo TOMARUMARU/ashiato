@@ -1,0 +1,17 @@
+{
+	"name": "足跡ツール パックマンver v1.0",
+	"version": "1.3",
+	"manifest_version": 2,
+	"description": "Pairs 自動足跡ツール",
+
+	"permissions": [
+		"tabs", "https://pairs.lv/*"
+	// tabs→apiの使用権限を要求している。https→pairs配下を示している。。
+	],
+
+	"browser_action": {
+		"default_title": "実行",
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	}
+}
